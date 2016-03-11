@@ -4,7 +4,7 @@
 #
 Name     : R-timeDate
 Version  : 3012.100
-Release  : 5
+Release  : 6
 URL      : http://cran.r-project.org/src/contrib/timeDate_3012.100.tar.gz
 Source0  : http://cran.r-project.org/src/contrib/timeDate_3012.100.tar.gz
 Summary  : No detailed summary available
