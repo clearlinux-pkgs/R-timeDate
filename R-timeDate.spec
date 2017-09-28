@@ -4,7 +4,7 @@
 #
 Name     : R-timeDate
 Version  : 3012.100
-Release  : 26
+Release  : 27
 URL      : http://cran.r-project.org/src/contrib/timeDate_3012.100.tar.gz
 Source0  : http://cran.r-project.org/src/contrib/timeDate_3012.100.tar.gz
 Summary  : Rmetrics - Chronological and Calendar Objects
