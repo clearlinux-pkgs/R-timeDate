@@ -4,13 +4,13 @@
 #
 Name     : R-timeDate
 Version  : 3043.102
-Release  : 42
+Release  : 43
 URL      : https://cran.r-project.org/src/contrib/timeDate_3043.102.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeDate_3043.102.tar.gz
 Summary  : Rmetrics - Chronological and Calendar Objects
 Group    : Development/Tools
 License  : GPL-2.0+
-BuildRequires : clr-R-helpers
+BuildRequires : buildreq-R
 
 %description
 standard as well as of the ANSI C and POSIX standards. Beyond
@@ -31,11 +31,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1519345909
+export SOURCE_DATE_EPOCH=1538572222
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1519345909
+export SOURCE_DATE_EPOCH=1538572222
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -97,6 +97,9 @@ cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 /usr/lib64/R/library/timeDate/html/00Index.html
 /usr/lib64/R/library/timeDate/html/R.css
 /usr/lib64/R/library/timeDate/unitTests/Makefile
+/usr/lib64/R/library/timeDate/unitTests/report.html
+/usr/lib64/R/library/timeDate/unitTests/report.txt
+/usr/lib64/R/library/timeDate/unitTests/reportSummary.txt
 /usr/lib64/R/library/timeDate/unitTests/runTests.R
 /usr/lib64/R/library/timeDate/unitTests/runit.AAA.R
 /usr/lib64/R/library/timeDate/unitTests/runit.Class.R
