@@ -1,18 +1,14 @@
 # This file contains recursive sources that require this package
-R-fAsianOptions
 R-fAssets
 R-fBasics
 R-fBonds
 R-fCopulae
-R-fExoticOptions
 R-fExtremes
 R-fGarch
 R-fImport
 R-fNonlinear
-R-fOptions
 R-fRegression
 R-fTrading
-R-fUnitRoots
 R-forecast
 R-recipes
 R-timeSeries
