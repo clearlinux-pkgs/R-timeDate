@@ -4,7 +4,7 @@
 #
 Name     : R-timeDate
 Version  : 4021.106
-Release  : 76
+Release  : 77
 URL      : https://cran.r-project.org/src/contrib/timeDate_4021.106.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeDate_4021.106.tar.gz
 Summary  : Rmetrics - Chronological and Calendar Objects
