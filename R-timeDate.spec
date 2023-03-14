@@ -4,16 +4,13 @@
 #
 Name     : R-timeDate
 Version  : 4022.108
-Release  : 79
+Release  : 80
 URL      : https://cran.r-project.org/src/contrib/timeDate_4022.108.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeDate_4022.108.tar.gz
 Summary  : Rmetrics - Chronological and Calendar Objects
 Group    : Development/Tools
 License  : GPL-2.0+
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 standard as well as of the ANSI C and POSIX standards. Beyond
@@ -35,10 +32,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673293109
+export SOURCE_DATE_EPOCH=1678828178
 
 %install
-export SOURCE_DATE_EPOCH=1673293109
+export SOURCE_DATE_EPOCH=1678828178
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
