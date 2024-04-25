@@ -7,7 +7,7 @@
 #
 Name     : R-timeDate
 Version  : 4032.109
-Release  : 85
+Release  : 86
 URL      : https://cran.r-project.org/src/contrib/timeDate_4032.109.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeDate_4032.109.tar.gz
 Summary  : Rmetrics - Chronological and Calendar Objects
